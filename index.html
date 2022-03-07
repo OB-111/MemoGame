@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+    <title>Memory Game</title>
+
+</head>
+
+<body>
+    <center>
+        <h1>Memory Game</h1>
+        <h2 id="player"></h2>
+        <div id="playersData">
+            <label for="fname">PLAYER1:</label>
+            <input type="text" id="p1" name="player1Name" onblur="getVal()"><br>
+            <label for="fname">PLAYER2:</label>
+            <input type="text" id="p2" name="player2Name" onblur="getVal()"><br>
+            <select id="level">
+                <option value="Easy">Easy</option>
+                <option value="Meduim">Meduim</option>
+            </select>
+            <input type="checkbox" onclick=" newBoard()">Start The Game</button>
+        </div>
+    </center>
+
+
+    <div id='score'></div>
+    <div id="memory_board"></div>
+
+</body>
+
+</html>

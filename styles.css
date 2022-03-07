@@ -1,0 +1,69 @@
+   h1 {
+       font-family: monospace;
+       padding: 40px;
+       text-align: center;
+       background: #1abc9c;
+       color: white;
+       font-size: 50px;
+
+   }
+
+   h2#player {
+       font-family: monospace;
+       font-size: x-large;
+       padding-right: 1000px;
+       padding-inline: 120px;
+
+   }
+
+   input#fname {
+       padding: 6px;
+   }
+
+   select#level {
+       font-family: monospace;
+       font-size: x-large;
+   }
+
+
+
+   div#score {
+       padding: 40px;
+       text-align: center;
+       font-size: 50px;
+       margin: 10px;
+       padding: 20px;
+       font-family: monospace;
+
+   }
+
+   div#playersData {
+       font-family: monospace;
+       font-size: 20px;
+       font-size: x-large;
+
+
+
+   }
+
+   div#memory_board {
+       display: none;
+       background: #1abc9c7a;
+       border: #999 1px solid;
+       width: 600px;
+       height: 600px;
+       padding: 24px;
+       margin: 0px auto;
+   }
+
+   div#memory_board>div {
+       border: #000 1px solid;
+       width: 58px;
+       height: 58px;
+       float: left;
+       margin: 10px;
+       padding: 20px;
+       font-size: 64px;
+       cursor: pointer;
+       text-align: center;
+   }
